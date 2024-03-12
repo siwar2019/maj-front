@@ -1,0 +1,41 @@
+{
+  "admin": {
+    "login": {
+      "email": "Email",
+      "password": "password *",
+      "login": "LOG IN",
+      "titleLogin": "Log in using your e-mail address and you  password.",
+      "forgotPwd": " Forgot Your Password ?",
+      "rememberPwd": "Remember me (optional)"
+    },
+    "forgot": {
+      "forgotPassword": " FORGOT PASSWORD",
+      "titleForgot": "Enter your adress to reset your password",
+      "btnForgot": "FORGOT YOUR PASSWORD",
+      "Back": "Back"
+    },
+    "reset": {
+      "resetPWD": " reset your password",
+      "newPwd": "New Password *",
+      "confirPwd": "confirm password *",
+      "btnReset": "RESET YOUR PASSWORD"
+    },
+    "navbar": {
+      "logout": "logout",
+      "Profile": "Profile",
+      "Myaccount": "My account",
+      "Logout": "Logout"
+    },
+    "sideBar": {
+      "Dashboard": "Dashboard",
+      "Home": "Home",
+      "Profile": "Profile",
+      "Categories": "Categories",
+      "Products": "Products",
+      "Returns": "Returns",
+      "Orders": "Orders",
+      "report": "report",
+      "Settings": "Settings"
+    }
+  }
+}

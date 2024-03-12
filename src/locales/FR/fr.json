@@ -1,0 +1,26 @@
+{
+  "admin": {
+    "login": {
+      "email": "Email",
+      "password": "mot de passe *",
+      "login": "CONNEXION",
+      "titleLogin": "Connectez-vous en utilisant votre adresse e-mail et votre mot de passe.         ",
+      "forgotPwd": "  Mot de passe oublié ?",
+      "rememberPwd": "Se souvenir de moi (facultatif)"
+    },
+    "forgot": {
+      "forgotPassword": "MOT DE PASSE OUBLIÉ",
+      "titleForgot": "Entrez votre adresse pour réinitialiser votre mot de passe",
+      "btnForgot": "RÉINITIALISEZ VOTRE MOT DE PASSE",
+      "Back": "Retour"
+    },
+    "reset": {
+      "resetPWD": "réinitialisez votre mot de passe",
+      "newPwd": "Nouveau mot de passe *",
+      "confirPwd": "Confirmez le mot de passe *"
+    },
+    "categories": {
+      "categories": "Categories"
+    }
+  }
+}

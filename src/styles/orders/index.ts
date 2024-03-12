@@ -1,0 +1,95 @@
+import { makeStyles } from '@material-ui/styles';
+import { tableCellClasses } from '@mui/material';
+export const useStyles = makeStyles(() => ({
+  StyledTableCell: {
+    fontWeight: 'bold',
+    padding: '22px !important',
+    [`&.${tableCellClasses.head}`]: {
+      backgroundColor: 'black !important',
+      color: 'white',
+    },
+    [`&.${tableCellClasses.body}`]: {
+      fontSize: 14,
+    },
+  },
+  cancelBtn: {
+    backgroundColor: '#f81025  !important',
+    color: 'white !important',
+    borderRaduis: '50%',
+    fontSize: '10px !important',
+    width: '70px',
+  },
+  confirmBtn: {
+    color: '#f81025 !important',
+    border: '1px solid #f81025 !important',
+    borderRaduis: '50%',
+    fontSize: '10px !important',
+    width: '70px',
+  },
+  spaceBox: {},
+  confirmed: {
+    backgroundColor: '#5C955D !important',
+    color: 'white !important',
+    margin: '10px',
+    borderRaduis: '50%',
+    padding: '3px',
+    paddingLeft: '9px',
+    paddingRight: '9px',
+    marginLeft: '10px !important',
+    fontWeight: 'bold',
+    fontSize: '10px !important',
+  },
+  canceled: {
+    backgroundColor: ' #E75E46 !important',
+    color: 'white !important',
+    margin: '10px',
+    borderRaduis: '50%',
+    padding: '3px',
+    paddingLeft: '9px',
+    paddingRight: '9px',
+    marginLeft: '10px !important',
+    fontWeight: 'bold',
+    fontSize: '10px !important',
+  },
+  actionButtons: {
+    display: 'flex',
+    justifyContent: 'center',
+    gap: '10px',
+  },
+  modalBox: {
+    position: 'absolute' as 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    border: '2px solid white',
+    width: 430,
+    backgroundColor: 'white !important',
+    padding: 50,
+    borderRadius: '2% ',
+  },
+  delete: {
+    textAlign: 'center',
+    color: '#f81025 !important',
+    fontSize: '35px !important',
+    textTransform: 'uppercase',
+  },
+  textDelete: {
+    fontSize: '22px !important',
+  },
+  bnt: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    gap: '15px',
+  },
+  btnCancel: {
+    color: '#f81025 !important',
+    borderColor: '#f81025 !important',
+    fontSize: '18px !important',
+    borderRadius: '0px !important',
+  },
+  btnDelete: {
+    fontSize: '18px !important',
+    backgroundColor: '#f81025 !important',
+    borderRadius: '0px !important',
+  },
+}));
